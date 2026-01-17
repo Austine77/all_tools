@@ -1,6 +1,6 @@
 Flask
-gunicorn
 PyPDF2
 pdfplumber
 python-docx
 pikepdf
+gunicorn

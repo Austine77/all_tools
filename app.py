@@ -28,23 +28,23 @@ def allowed_file(filename):
 # ----------------------
 @app.route("/index")
 def index():
-    return render_template("index.html")
+    return render_template("index")
 
 @app.route("/about")
 def about():
-    return render_template("about.html")
+    return render_template("about")
 
 @app.route("/contact")
 def contact():
-    return render_template("contact.html")
+    return render_template("contact")
 
 @app.route("/privacy-policy")
 def privacy():
-    return render_template("privacy-policy.html")
+    return render_template("privacy-policy")
 
 @app.route("/terms")
 def terms():
-    return render_template("terms.html")
+    return render_template("terms")
 
 # ----------------------
 # Resume Checker API
